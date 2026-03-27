@@ -1,8 +1,8 @@
 
 
-# # Sistema-Control-Industrial: 🏭 SCADA - Sistema de Control de 3 Depósitos
+# Sistema-Control-Industrial: SCADA - Sistema de Control de 3 Depósitos
 
-## 📌 Descripción
+## Descripción
 
 Este proyecto implementa un sistema completo de **control y supervisión (SCADA)** para una planta de **3 depósitos interconectados**.
 
@@ -16,7 +16,7 @@ Incluye:
 
 ---
 
-## 🧠 Arquitectura del sistema
+## Arquitectura del sistema
 
 ```
         ┌──────────────┐
@@ -43,9 +43,9 @@ Incluye:
 
 ---
 
-## ⚙️ Características principales
+## Características principales
 
-### 🔹 SCADA (HMI)
+### SCADA (HMI)
 
 * Visualización de 3 tanques
 * Estado de válvulas y bomba
@@ -54,11 +54,11 @@ Incluye:
 * Watchdog de comunicación
 * Indicadores en tiempo real
 
-📄 Implementado en: `scada_window.py` 
+Implementado en: `scada_window.py` 
 
 ---
 
-### 🔹 Simulación de planta (Debugeo o simulación)
+### Simulación de planta (Debugeo o simulación)
 
 * Modelo dinámico de niveles
 * Flujo entre tanques
@@ -68,7 +68,7 @@ Incluye:
 
 ---
 
-### 🔹 Servidor (API REST)
+### Servidor (API REST)
 
 * `GET /state` → estado de la planta
 * `POST /command` → envío de comandos
@@ -77,7 +77,7 @@ Incluye:
 
 ---
 
-### 🔹 Sistema de comunicaciones
+### Sistema de comunicaciones
 
 Arquitectura desacoplada basada en interfaz común:
 
@@ -95,7 +95,7 @@ Factory dinámica:
 
 ---
 
-### 🔹 Multithreading (SCADA)
+### Multithreading (SCADA)
 
 Lectura de datos no bloqueante mediante worker:
 
@@ -103,9 +103,9 @@ Lectura de datos no bloqueante mediante worker:
 
 ---
 
-## 🚀 Ejecución del proyecto
+## Ejecución del proyecto
 
-### 1️⃣ Instalar dependencias
+### Instalar dependencias
 
 ```bash
 pip install PySide6 flask requests paho-mqtt
@@ -113,7 +113,7 @@ pip install PySide6 flask requests paho-mqtt
 
 ---
 
-### 2️⃣ Lanzar servidor (planta)
+### Lanzar servidor (planta)
 
 ```bash
 python server.py
@@ -127,7 +127,7 @@ http://localhost:5000
 
 ---
 
-### 3️⃣ Lanzar SCADA
+### Lanzar SCADA
 
 ```bash
 python main.py
@@ -137,14 +137,14 @@ python main.py
 
 ---
 
-### 4️⃣ Configurar conexión en SCADA
+### Configurar conexión en SCADA
 
 * Tipo: `rest`
 * Destino: `127.0.0.1:5000`
 
 ---
 
-## 🎮 Uso
+## Uso
 
 ### 🔹 Modo manual
 
@@ -176,9 +176,9 @@ python main.py
 
 ---
 
-## 🧩 Diseño del sistema
+## Diseño del sistema
 
-### 🔹 Principios aplicados
+### Principios aplicados
 
 * Separación de responsabilidades
 * Arquitectura modular
@@ -188,7 +188,7 @@ python main.py
 
 ---
 
-## 📚 Uso educativo
+## Uso educativo
 
 Este proyecto está pensado para:
 
@@ -199,7 +199,7 @@ Este proyecto está pensado para:
 
 ---
 
-## 🔧 Mejoras futuras
+## Mejoras futuras
 
 * Control PID de nivel
 * Historización de datos
@@ -209,12 +209,12 @@ Este proyecto está pensado para:
 
 ---
 
-## 👨‍🏫 Autor
+## Autor
 
 Proyecto educativo para enseñanza de automatización industrial.
 
 ---
 
-## 📜 Licencia
+## Licencia
 
 MIT
