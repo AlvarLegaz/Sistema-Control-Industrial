@@ -1,7 +1,6 @@
 
 
 # Sistema-Control-Industrial: 
-SCADA - Sistema de Control de 3 Depósitos
 
 ## Descripción
 
@@ -9,7 +8,7 @@ Este proyecto implementa un sistema completo de **control y supervisión (SCADA)
 
 Incluye:
 
-* Simulación de planta industrial
+* Control/Simulación de planta industrial
 * Comunicación industrial (REST, MQTT, Serial)
 * Interfaz SCADA en tiempo real
 * Control manual y automático
@@ -26,9 +25,9 @@ Incluye:
         └──────┬───────┘
                │
        ┌───────▼────────┐
-       │  Comunicaciones │
-       │ REST / MQTT /   │
-       │ SERIAL          │
+       │  Comunicaciones│
+       │ REST / MQTT /  │
+       │ SERIAL         │
        └───────┬────────┘
                │
         ┌──────▼───────┐
