@@ -1,6 +1,7 @@
 
 
-# Sistema-Control-Industrial: SCADA - Sistema de Control de 3 Depósitos
+# Sistema-Control-Industrial: 
+SCADA - Sistema de Control de 3 Depósitos
 
 ## Descripción
 
